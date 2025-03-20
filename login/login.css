@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*.titulo{
+
+  font-size: 80px;
+  color: red;
+} */
+
+ /* #meutitulo {
+
+    font-size: 80px;
+
+} */
+
+  h1 {
+
+    font-size: 80px;
+ font-family: "Inter";
+}  
