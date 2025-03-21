@@ -21,6 +21,12 @@ box-sizing: border-box;
 
 } */
 
+.page-container {
+
+ display:flex;
+ 
+}
+
 h1 {
 
   font-size: 80px;
@@ -58,8 +64,8 @@ display: flex;
 flex-direction: column; /* deixar em colunas*/
 align-items: center; /* horizontal */
 justify-content: center; /* horizontal*/
-height: 80vh;
-
+height: 100vh;
+width: 50vw;
 
 }
 
@@ -69,7 +75,13 @@ height: 80vh;
 
 }
 
-.robo{
- width: 733px;
-  height: 1024px;
+.robo-image{
+
+background-image: url(../assets/imgs/Rectangle\ 1\ \(1\).png);
+background-size: cover;
+
+width: 50vw;
+height: 100vh;
+
 }
+
