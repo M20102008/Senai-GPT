@@ -1,19 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+*{
+
+  padding: 0px;
+  margin: 0px;
+box-sizing: border-box;
+
+}
+
+
 /*.titulo{
 
   font-size: 80px;
   color: red;
 } */
 
- /* #meutitulo {
+/* #meutitulo {
 
     font-size: 80px;
 
 } */
 
-  h1 {
+h1 {
 
-    font-size: 80px;
- font-family: "Inter";
-}  
+  font-size: 80px;
+  font-family: "Inter";
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  margin-bottom: 16px;
+}
+
+.inpt {
+
+  padding: 18px; /* espaçamento interno */
+  border: none; /* remove borda */
+  background-color: #F7F9FB; /* coloca cor */
+  border-radius: 10px;
+  width: 377px;
+  margin-bottom: 16px;
+}
+
+.btn {
+
+  background-color: black;
+  color: white;
+  border-radius: 10px; /*arredonda as bordas*/
+  border: none; /*altura*/
+  width: 377px; /*largura*/
+  height: 50px;
+
+
+}
+
+.login-container{
+
+display: flex;
+flex-direction: column; /* deixar em colunas*/
+align-items: center; /* horizontal */
+justify-content: center; /* horizontal*/
+height: 80vh;
+
+
+}
+
+.logo{
+
+  height: 60px;
+
+}
+
+.robo{
+ width: 733px;
+  height: 1024px;
+}
